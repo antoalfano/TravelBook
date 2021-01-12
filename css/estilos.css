@@ -1,0 +1,285 @@
+*{
+text-decoration: none;
+list-style: none;
+margin: 0px;
+padding: 0px;
+list-style-type: none;     
+}
+
+
+
+/* NAVEGADOR */
+
+.contenedorNav{
+width: 100%;
+height: 100px;
+background-color: #f98484;
+box-shadow: 0 4px 2px -3px gray;
+}
+
+
+.logo{
+width: 100px; 
+margin-left: 200px;   
+}
+
+
+.menu{
+display: flex;
+float: right;
+margin-right: 200px; 
+margin-top: 45px;
+}
+
+
+p a{
+color: #545454;
+font-family: sans-serif;
+}
+
+
+#p1{
+margin-right: 60px;
+}
+
+
+#p1:hover{
+box-shadow: 0 4px 2px -3px #545454;     
+}
+
+
+
+/* BIENVENIDA */
+
+.bienvenida{
+margin-top: 100px;
+margin-left: 180px;    
+}
+
+
+#titulo{
+font-family: sans-serif;
+font-size: 45px; 
+   
+}
+
+
+#parrafo1{
+font-family: sans-serif;
+width: 76%;
+text-align: left;
+font-size: 20px;
+}
+
+
+
+/* SERVICIOS */
+
+.servicios, .nosotros{
+background-color: #fff;
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+
+.contenedorServicios, .contenedorSuscripcion{
+width: 960px;
+margin-left: 180px;
+display: flex;
+}
+
+
+.servicio{
+width: 300px;
+margin-left: 10px;
+margin-right: 10px;
+border: 1px solid rgb(214, 209, 209);
+border-radius: 5px;
+}
+
+
+.servicio:hover{
+box-shadow: 0 4px 2px -2px gray;
+}
+
+
+.contenidoImagen{
+width: 300px;
+height: 200px;
+background-color: #444;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+
+#serv-1 .contenidoImagen{
+background-image: url(../img/imagen1.jpg);
+background-position: center center;
+background-size: cover;
+}
+
+
+#serv-2 .contenidoImagen{
+background-image: url(../img/imagen2.jpg);
+background-position: center center;
+background-size: cover;
+}
+
+
+#serv-3 .contenidoImagen{
+background-image: url(../img/imagen3.jpg);
+background-position: center center;
+background-size: cover;
+}
+
+
+#serv-4 .contenidoImagen{
+background-image: url(../img/imagen4.jpg);
+background-position: center center;
+background-size: cover;
+}
+
+
+#serv-5 .contenidoImagen{
+background-image: url(../img/imagen5.jpg);
+background-position: center center;
+background-size: cover;
+}
+
+
+#serv-6 .contenidoImagen{
+background-image: url(../img/imagen6.jpg);
+background-position: center center;
+background-size: cover;
+}
+
+
+.contenidoTexto{
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+
+.textoIzq{
+margin-left: 180px;
+color: #fbb5b4;
+margin-top: -5px;
+font-size: 12px;
+}
+
+
+.contenidoTexto h2 {
+margin-top: 5px;
+margin-bottom: 10px;
+font-family: 'Lucida Sans', Verdana, sans-serif; 
+color: #e65172; 
+}
+
+
+.contenidoTexto > p {
+margin-bottom: 10px;
+padding-top: 10px;
+}
+
+
+.contenidoTexto > p > .btn {
+margin-top: 20px;
+background-color: rgba(255, 255,255, .9);
+color: #444;
+border: 1px solid #000;
+}
+
+
+
+/* LLAMADA A LA ACCION */
+
+.suscripcion{
+padding-top: 100px;
+padding-bottom: 50px;
+color: #fff;
+background-color: #ea0e4c;
+}
+
+
+form {
+margin-top: 30px;
+text-align: left;
+}
+
+
+.label{
+margin-left: 20px;  
+}
+
+
+.inputText{
+margin-top: 10px;
+background-color: rgba(255, 255,255, .0);
+border: 1px solid #fff;
+border-radius: 20px;
+height: 40px;
+color: #fff;
+padding-left: 20px;
+width:350px;
+font-size: 16px;
+}
+
+
+.inputArea{
+margin-top: 10px;
+background-color: rgba(255, 255,255, .0);
+border: 1px solid #fff;
+border-radius: 20px;
+color: #fff;
+padding-left: 20px;
+padding-top: 10px;
+width:350px;
+font-size: 16px;
+}
+
+
+.inputText:focus{
+background-color: rgba(255, 255,255, .3);
+}
+
+
+.inputArea:focus{
+background-color: rgba(255, 255,255, .3);
+}
+
+
+.btn{
+background-color: rgba(255, 255,255, .0);
+color: #fff;
+padding: 10px 20px;
+border: 1px solid #fff;
+border-radius: 20px;
+font-size: 16px;
+font-weight: bolder;
+}
+
+
+.btn:hover{
+background-color: rgba(255, 255,255, .9);
+color: #444;
+border: 1px solid #000;     
+}
+
+
+
+/* FOOTER */
+
+.contenedorFooter{
+width: 100%;
+height: 60px;
+background-color: #b70741;
+}
+
+
+#txt{
+text-align: center;
+color: white;
+font-size: 20px;
+}
